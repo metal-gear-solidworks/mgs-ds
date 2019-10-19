@@ -7,21 +7,21 @@ class ControllerError(Exception):
 class JoystickState:
     def failsafe(self):
         self.state = {
-            'analog': [
+            'analog' : [
                 0,
                 0,
                 0,
                 0,
                 0,
                 0
-            ]
+            ],
 
-            'dpad': [
+            'dpad' : [
                 0,
                 0
-            ]
+            ],
 
-            'buttons': [
+            'buttons' : [
                 False,
                 False,
                 False,
@@ -72,7 +72,7 @@ class JoystickState:
         self.failsafe()
 
 def read_controller():
-
+    pass
 
 if __name__ == '__main__':
     gamepad = JoystickState()
