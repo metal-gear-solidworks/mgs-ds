@@ -14,10 +14,7 @@ const createWindow = () => {
   });
 
   // and load the index.html of the app.
-  mainWindow.loadFile(path.join(__dirname, '../src/index.html'));
-
-  // Open the DevTools.
-  mainWindow.webContents.openDevTools();
+  mainWindow.loadFile(path.join(__dirname, '../src/index.tsx'));
 };
 
 // This method will be called when Electron has finished
